@@ -5,10 +5,11 @@ import App from './App';
 import ExampleApplication from './triangleDemo'
 import registerServiceWorker from './registerServiceWorker';
 
-//ReactDOM.render(<App />, document.getElementById('root'));
-//registerServiceWorker();
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
 
-var start = new Date().getTime();
+
+/*var start = new Date().getTime();
 function update() {
   ReactDOM.render(
     <ExampleApplication elapsed={new Date().getTime() - start} />,
@@ -16,4 +17,4 @@ function update() {
   );
   requestAnimationFrame(update);
 }
-requestAnimationFrame(update);
+requestAnimationFrame(update);*/
